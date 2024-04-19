@@ -18,10 +18,9 @@ int main() {
 
     while (1) {
 
-        uint8_t ui8TemperatureCelsius = TEMPERATURE_Read();
+        float fTemperatureC = TEMPERATURE_Read();
 
-        UART_PutString(ui8TemperatureCelsius);
-        UART_PutChar('\n');
+        printf("Temperature: %0.2f \n", fTemperatureC);
 
         sleep_ms(1000);
     }
