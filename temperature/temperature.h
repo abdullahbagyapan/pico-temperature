@@ -45,4 +45,4 @@ void TEMPERATURE_Init(void);
 
  @return  The data, read from sensor
 */
-uint8_t TEMPERATURE_Read(void);
+float TEMPERATURE_Read(void);
