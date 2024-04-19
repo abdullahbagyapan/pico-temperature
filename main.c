@@ -13,7 +13,7 @@ int main() {
 
         uint8_t ui8TemperatureCelsius = TEMPERATURE_Read();
 
-        UART_PutString(ui8TemperatureCelsius);
+        UART_PutChar(ui8TemperatureCelsius);
         UART_PutChar('\n');
 
         sleep_ms(1000);
