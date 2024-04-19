@@ -21,7 +21,7 @@ add_subdirectory(temperature)
 add_subdirectory(uart)
 
 # Add pico_stdlib library which aggregates commonly used features
-target_link_libraries(main pico_stdlib temperature uart)
+target_link_libraries(main pico_stdlib hardware_adc temperature uart)
 
 
 # create map/bin/hex/uf2 file in addition to ELF.
