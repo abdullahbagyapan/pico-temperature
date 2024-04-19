@@ -1,4 +1,4 @@
-# Read Temperature Sensor Data on Raspberry Pi Pico
+# Read Data from Temperature Sensor on Raspberry Pi Pico
 
 <img src="img/temperature.png">
 
