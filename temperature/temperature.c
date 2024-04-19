@@ -60,11 +60,11 @@ void TEMPERATURE_Init(void) {
 
 float TEMPERATURE_Read(void) {
 
-    float ui8TemperatureCelsius;
+    float fTemperatureCelsius;
 
     uint16_t ui16ADC_voltage = adc_read();
 
-    ui8TemperatureCelsius = TEMPERATURE_Calculate(ui16ADC_voltage);
+    fTemperatureCelsius = TEMPERATURE_Calculate(ui16ADC_voltage);
 
-    return ui8TemperatureCelsius;
+    return fTemperatureCelsius;
 }
