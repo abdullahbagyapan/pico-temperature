@@ -40,3 +40,17 @@ void UART_Init(void);
  @return  None
 */
 void UART_PutChar(uint8_t ui8Data);
+
+
+/*
+ @brief:  Transmit string data by UART
+
+ @author  Abdullah Bagyapan
+
+ @date    19/04/2024
+
+ @param   The string data
+
+ @return  None
+*/
+void UART_PutString(uint8_t *ui8pData);
