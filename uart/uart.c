@@ -22,8 +22,8 @@ void UART_Init(void) {
     uart_init(UART_DEFAULT_INSTANCE, UART_BAUDRATE);
 
     // set gpio 0 & 1 pins as UART
-    gpio_set_function(0, GPIO_FUNC_UART);
-    gpio_set_function(1, GPIO_FUNC_UART);
+    gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
+    gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 
 }
 

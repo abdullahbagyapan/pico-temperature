@@ -17,6 +17,9 @@
 #define UART_DEFAULT_INSTANCE           uart0
 #define UART_BAUDRATE                   115200
 
+#define UART_TX_PIN                     0
+#define UART_RX_PIN                     1
+
 
 /*================================== Functions ==================================*/
 
