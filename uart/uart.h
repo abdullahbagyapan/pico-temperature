@@ -61,4 +61,4 @@ void UART_PutChar(uint8_t ui8Data);
 
  @return  None
 */
-void UART_PutString(uint8_t *ui8pData);
+void UART_PutString(char *ui8pData);

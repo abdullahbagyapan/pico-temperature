@@ -35,7 +35,7 @@ void UART_PutChar(uint8_t ui8Data) {
 }
 
 
-void UART_PutString(uint8_t *ui8pData) {
+void UART_PutString(char *ui8pData) {
 
     uart_puts(UART_DEFAULT_INSTANCE, ui8pData);
 
