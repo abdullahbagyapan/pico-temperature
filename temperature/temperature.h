@@ -9,6 +9,13 @@
 #include "stdint.h"
 
 
+/*================================== Defined Variables ==================================*/
+
+
+#define TEMPERATURE_GPIO_PIN        29
+#define TEMPERATURE_ADC_PIN         4
+
+
 /*================================== Functions ==================================*/
 
 
