@@ -1,5 +1,7 @@
 # Read Temperature Sensor Data on Raspberry Pi Pico
 
+<img src="img/temperature.png">
+
 ## Prerequisites
 
 Before diving into code, you need to **install prerequisites**. You can see it from [here](INSTALLATION.md)
