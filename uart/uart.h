@@ -8,6 +8,14 @@
 
 
 #include "stdint.h"
+#include "pico/stdlib.h"
+
+
+/*================================== Defined Variables ==================================*/
+
+
+#define UART_DEFAULT_INSTANCE           uart0
+#define UART_BAUDRATE                   115200
 
 
 /*================================== Functions ==================================*/
