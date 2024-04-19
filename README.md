@@ -58,5 +58,5 @@ Now that we compiled the code we can deploy to our microcontroller.
 > **Note !:** To upload the compiled code, you need to start your Raspberry Pi Pico in **flash mode**. To start in flash mode you need to press **bootsel button** before plug in cable.
 
 ```console
-cp build/main.ef2 <your-rasp-pi-pico-path>
+cp build/main.uf2 <your-rasp-pi-pico-path>
 ```
